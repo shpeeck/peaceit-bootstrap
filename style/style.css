@@ -1,0 +1,151 @@
+
+.header {
+    padding-top: 53px;
+    padding-bottom: 100px;
+}
+
+.navbar-menu {
+    margin-bottom: 124px;
+}
+.navbar__logo {
+    display: flex;
+    /* justify-content: start; */
+}
+
+.logo-icon {
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+}
+
+.navbar-brand {
+    font-family: Hellix;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+
+    color: #202020;
+}
+
+.nav-link-item {
+    font-family: Hellix;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+
+    color: #202020;
+    
+    padding: 5px 15px;
+}
+
+.nav-link-item:hover {
+    background-color: #5528FF;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-title {
+    font-family: Hellix;
+    font-size: 55px;
+    line-height: 68px;
+    font-weight: 700;
+
+    color: #202020;
+}
+@media (max-width: 992px) {}
+    .header-title {
+        font-size: 45px;
+    }
+}
+
+.header-text {
+    font-family: Hellix;
+    font-size: 32px;
+    line-height: 52px;
+
+    color: #4f4f4f;
+}
+
+.button {
+    background: #5528ff;
+    border-radius: 10px;
+    font-family: Hellix;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #ffffff;
+}
+
+.line {
+    font-size: 14px;
+    line-height: 16px;
+    color: #c2c2c2;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.line::before,
+.line::after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    height: 1px;
+    vertical-align: middle;
+    background:  #c2c2c2;
+}
+
+.line::before {
+    left: -10px;
+    margin-left: -50%;
+    width: 70%;
+}
+
+.line::after {
+    left: 10px;
+    margin-right: -50%;
+    width: 200%;
+}
+
+.services {
+    padding: 100px 0;
+}
+
+.services-title {
+    font-family: Hellix;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.services-text {
+    font-family: Hellix;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #B2B2B2;
+}
+
+.client {
+    padding-top: 53px;
+    padding-bottom: 100px;
+}
+
+.team {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.team-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 0 0 50px 50px;
+}
+
+.footer {
+    padding: 20px 0;
+}
